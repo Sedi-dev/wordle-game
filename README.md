@@ -1,60 +1,72 @@
-#Wordle Clone(python)
-A simple but fully functional Wordle-style word guessing game built in python.
-This projects simulates the core mechanics of the popular game, including letter matching logic, input validation, and limited attempts.
+# 🧩 Wordle Game (Python)
+
+A command-line implementation of the popular Wordle game, built using Python.
+
+This project focuses on problem-solving, game logic, and handling user interaction through clean and structured code.
 
 ---
 
-## 📌 Project Overview
+## 🚀 Features
 
-This program selects a random 5-letter word from a dictionary file and challenges the user to guess it within 6 attempts.
-
-After each guess, the game provides feedback using symbols:
-- '*' → Correct letter in the correct position
-- '+' → Correct letter in the wrong position
-- '-' → Letter not in the word
-
----
-
-## ⚙️ Features
-- Random 5-letter word selection from a word list file
-- Input validation (5-letter word check)
-- Wordle-style feedback system (position + presence checking)
-- File-based dictionary ('words.txt')
-- Limited 6-attempt gameplay system
-- Win/Lose detection
+* Random word selection
+* Input validation
+* Feedback system (correct letters, correct positions)
+* Limited attempts system
+* Replayable gameplay
 
 ---
 
-## 🧠 Key Concepts Demonstrated
+## 🛠️ Technologies Used
 
-This project demonstrates understanding of:
-
-- Python loops and conditionals
-- String manipulation
-- File handling
-- Lists and iteration
-- Algorithm design (two-pass matching system)
-- Input validation
-- Game logic implementation
-
----  
-
-## ▶️ How to Run the Project
-1. Ensure Python is installed on your system
-2. Download or clone this repository
-3. Make sure 'words.txt' is in the same folder as 'wordle.py'
-4. Run the program:
+* Python
 
 ---
 
-## 💡 Learning Outcome
+## ▶️ How to Run
 
-Through this project, I have developed a deeper understanding of algorithm design, particularly handling edge cases such as repeated letters and accurate feedback generation.
-
-🚀 Future Improvements
-~ Add a graphical user interface (GUI)
-~ Track player statistics (wins/losses)
-~ Implement difficulty levels
+1. Clone the repository:
 
 ```bash
+git clone https://github.com/Sedi-dev/wordle-game-python.git
+```
+
+2. Navigate into the folder:
+
+```bash
+cd wordle-game-python
+```
+
+3. Run the game:
+
+```bash
+python wordle.py
+```
+
+---
+
+## 🧠 What I Learned
+
+* How to break down a problem into smaller steps
+* Designing game logic using conditionals and loops
+* Handling and validating user input
+* Structuring code using functions for readability
+
+---
+
+## 🎯 Future Improvements
+
+* Add a graphical user interface (GUI)
+* Improve feedback visuals (colours or symbols)
+* Expand word list and difficulty levels
+
+---
+
+## 📌 Project Purpose
+
+This project was built to improve my understanding of core programming concepts and apply them in a practical, interactive way.
+
+---
+
+⭐️ This project reflects my approach to learning: building real applications to reinforce concepts.
+
 python wordler as 'wordle
