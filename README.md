@@ -73,7 +73,7 @@ The game reads from this file automatically — no additional setup needed.
 ```
 wordle-game/
 │
-├── wordle.py        # Main game logic
+├── wordle_game.py        # Main game logic
 ├── words.txt        # Valid word list
 └── README.md
 ```
@@ -97,7 +97,7 @@ cd wordle-game
 Run the game:
 
 ```bash id="run3"
-python wordle.py
+python wordle_game.py
 ```
 
 ---
