@@ -1,4 +1,3 @@
-<img width="787" height="441" alt="wordle_game_example_run" src="https://github.com/user-attachments/assets/a97c38ed-5432-43e2-ba45-f91e2aca6eff" />
 # 🧩 Wordle Game (Python)
 
 A command-line implementation of the popular Wordle game, built using Python.
@@ -71,3 +70,16 @@ This project was built to improve my understanding of core programming concepts 
 ⭐️ This project reflects my approach to learning: building real applications to reinforce concepts.
 
 python wordler as 'wordle
+
+---
+
+## 👨🏻‍💻 Gameplay Demo 
+
+~ Incorrect word/ Word is not valid
+<img width="303" height="393" alt="wordle_game_examplerun1" src="https://github.com/user-attachments/assets/605b6f8d-5e4d-45e4-a81c-92eaa9ef3e24" />
+
+~ Incorrect word length
+<img width="341" height="376" alt="wordle_game_examplerun2" src="https://github.com/user-attachments/assets/bd9d5b0b-ffcd-453e-afbd-dc441c92e2d7" />
+
+~ Correct word
+<img width="298" height="262" alt="wordle_game_examplerun3" src="https://github.com/user-attachments/assets/87bfca9d-1d1b-4b67-8e65-07bec5c3ef0b" />
