@@ -59,6 +59,15 @@ This ensures accurate feedback even when duplicate letters exist in the word.
 
 ---
 
+## 📦  Dependencies
+No external libraries required. Python standard library only.
+
+### Word List Source
+The repository includes `words.txt` containing all valid 5-letter words. 
+The game reads from this file automatically — no additional setup needed.
+
+---
+
 ## 📁 Project Structure
 
 ```
@@ -76,13 +85,13 @@ wordle-game/
 Clone the repository:
 
 ```bash id="run1"
-git clone https://github.com/Sedi-dev/wordle-game-python.git
+git clone https://github.com/Sedi-dev/wordle-game.git
 ```
 
 Navigate into the project folder:
 
 ```bash id="run2"
-cd wordle-game-python
+cd wordle-game
 ```
 
 Run the game:
