@@ -1,3 +1,4 @@
+<img width="787" height="441" alt="wordle_game_example_run" src="https://github.com/user-attachments/assets/a97c38ed-5432-43e2-ba45-f91e2aca6eff" />
 # 🧩 Wordle Game (Python)
 
 A command-line implementation of the popular Wordle game, built using Python.
