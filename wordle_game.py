@@ -4,7 +4,7 @@
 
 import random
 
-
+#constants
 max_attempts = 6
 word_length = 5
 
