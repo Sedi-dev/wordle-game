@@ -21,6 +21,7 @@ def evaluate_guess(user_guess, target):
    '-' = letter not in word
    
    This function also handles duplicate letters correctly.
+   
    """
    
    # Start with all positions marked as incorrect
@@ -57,6 +58,7 @@ def main():
    - Allows up to 6 guesses
    - Validates input
    - Displays feedback after each guess
+   
    """
    
    target = random.choice(WORDS)
