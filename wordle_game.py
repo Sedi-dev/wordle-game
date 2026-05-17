@@ -18,7 +18,7 @@ def evaluate_guess(user_guess, target):
    
    '*' = correct letter in the correct position
    '+' = correct letter in the wrong position
-   '-' = letter not in word
+   '-' = letter is not in the word
    
    This function also handles duplicate letters correctly.
    
@@ -27,7 +27,7 @@ def evaluate_guess(user_guess, target):
    # Start with all positions marked as incorrect
    feedback = ['-'] * word_length
    
-   # Convert target to a list so we can "use up" letters as they are matchec
+   # Convert target to a list so we can "use up" letters as they are matched
    remaining_letters = list(target)
    
    # First pass: check for correct letters in correct positions
