@@ -4,11 +4,11 @@
 
 import random
 
-#constants
+
 max_attempts = 6
 word_length = 5
 
-
+#Load all valid 5-letter words from the file
 with open("words.txt") as f:
    WORDS = [word.strip().lower() for word in f if len(word.strip()) == word_length]
 
@@ -18,10 +18,9 @@ def evaluate_guess(user_guess, target):
    
    '*' = correct letter in the correct position
    '+' = correct letter in the wrong position
-   '-' = letter is not in the word
+   '-' = letter not in word
    
    This function also handles duplicate letters correctly.
-   
    """
    
    # Start with all positions marked as incorrect
@@ -47,8 +46,11 @@ def evaluate_guess(user_guess, target):
    return ''.join(feedback)
 
 # Input validation
-def is_valid_guess(user_guess):
-   return len(user_guess) == word_length and user_guess in WORDS
+def is_valid_length(user_guess):
+   return len(user_guess) == word_length
+
+def is_valid_word(user_guess):
+   return user_guess in WORDS
 
 def main():
    """
@@ -58,22 +60,26 @@ def main():
    - Allows up to 6 guesses
    - Validates input
    - Displays feedback after each guess
-   
    """
    
    target = random.choice(WORDS)
    
    user_guess = ''
    won = False
-   
+   print(target)
    print("Welcome to wordle!\n")
    
    for attempt in range(max_attempts):
       user_guess = input('Please enter your word:\n').lower()
       
-      if not is_valid_guess(user_guess):
+      if not len(user_guess) == word_length:
+         print("Only 5 letter guesses are allowed!")
+         continue  
+      if not is_valid_word(user_guess):
          print("Invalid word")
-         continue      
+         continue
+      
+            
             
       result = evaluate_guess(user_guess, target)
          
