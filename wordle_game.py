@@ -8,7 +8,7 @@ import random
 max_attempts = 6
 word_length = 5
 
-#Load all valid 5-letter words from the file
+
 with open("words.txt") as f:
    WORDS = [word.strip().lower() for word in f if len(word.strip()) == word_length]
 
@@ -39,7 +39,7 @@ def evaluate_guess(user_guess, target):
    
    # Second pass: check for correct letters in wrong positions 
    for k in range(word_length):
-         if feedback[k] == '-':    # Only check letters not already matched
+         if feedback[k] == '-':    
             if user_guess[k] in remaining_letters: 
                feedback[k] = '+' 
                remaining_letters.remove(user_guess[k])  # Prevent reuse
