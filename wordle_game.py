@@ -66,13 +66,13 @@ def main():
    user_guess = ''
    won = False
    
-   print("🧩 Welcome to wordle!\n")
+   print("Welcome to wordle!\n")
    
    for attempt in range(max_attempts):
       user_guess = input('Please enter your word:\n').lower()
       
       if not is_valid_guess(user_guess):
-         print("Invalid word ❌")
+         print("Invalid word")
          continue      
             
       result = evaluate_guess(user_guess, target)
@@ -81,7 +81,7 @@ def main():
       print(result)
       
       if user_guess == target:
-         print("You got it!!🥳")
+         print("You got it!!")
          won = True
          break
          
