@@ -145,12 +145,15 @@ It demonstrates my ability to:
 
 ## 👨🏻‍💻 Gameplay Demo 
 
-![Incorrect word/ Word is not valid](https://github.com/user-attachments/assets/605b6f8d-5e4d-45e4-a81c-92eaa9ef3e24)
-
-![Incorrect word length](https://github.com/user-attachments/assets/bd9d5b0b-ffcd-453e-afbd-dc441c92e2d7)
+![Incorrect word/ Word is not valid](https://github.com/user-attachments/assets/1887fb21-5396-4f52-a552-c61af3d60001)
 
 
-![Correct word](https://github.com/user-attachments/assets/87bfca9d-1d1b-4b67-8e65-07bec5c3ef0b)
+![Incorrect word length](https://github.com/user-attachments/assets/981e89ae-9d65-4721-96fb-2509167caaa6)
+
+
+
+![Correct word](https://github.com/user-attachments/assets/18a9cb98-b53b-4b1b-9d74-024428303713)
+
 
 ---
 
