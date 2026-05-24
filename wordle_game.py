@@ -76,7 +76,7 @@ def main():
          print("Only 5 letter guesses are allowed!")
          continue  
       if not is_valid_word(user_guess):
-         print("Invalid word")
+         print("Invalid word.")
          continue
       
             
@@ -92,7 +92,7 @@ def main():
          break
          
    if not won:
-      print("You'll get it next time :-)")
+      print("You'll get it next time :-).")
    
    print("The correct word was:", target)
     
