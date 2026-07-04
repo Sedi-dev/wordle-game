@@ -6,7 +6,7 @@ This project was developed to strengthen my understanding of algorithm design, p
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 The Wordle game challenges the user to guess a randomly selected 5-letter word within 6 attempts. After each guess, the program provides feedback to help the user refine their next attempt.
 
@@ -19,7 +19,7 @@ This project focuses on:
 
 ---
 
-## 🚀 Features
+## Features
 
 * Random selection of a valid 5-letter word
 * Limited attempts system (6 guesses)
@@ -33,7 +33,7 @@ This project focuses on:
 
 ---
 
-## 🧠 How It Works (Core Logic)
+## How It Works (Core Logic)
 
 The feedback system uses a **two-pass matching algorithm**:
 
@@ -51,7 +51,7 @@ This ensures accurate feedback even when duplicate letters exist in the word.
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python 3
 * Built-in `random` module
@@ -59,7 +59,7 @@ This ensures accurate feedback even when duplicate letters exist in the word.
 
 ---
 
-## 📦  Dependencies
+##  Dependencies
 No external libraries required. Python standard library only.
 
 ### Word List Source
@@ -68,7 +68,7 @@ The game reads from this file automatically — no additional setup needed.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 wordle-game/
@@ -80,7 +80,7 @@ wordle-game/
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 Clone the repository:
 
@@ -102,7 +102,7 @@ python wordle_game.py
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 
 * How to design an algorithm for pattern matching
 * How to structure a program using functions
@@ -112,13 +112,13 @@ python wordle_game.py
 
 ---
 
-## 📌 Challenges Faced
+## Challenges Faced
 
 One of the main challenges in this project was correctly handling duplicate letters in the target word. This was solved by tracking remaining unmatched letters and using a two-pass evaluation system.
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 * Add difficulty levels (easy / hard modes)
 * Create a GUI version using Tkinter or a web interface
@@ -127,7 +127,7 @@ One of the main challenges in this project was correctly handling duplicate lett
 
 ---
 
-## ⭐ Project Purpose
+## Project Purpose
 
 This project was built as part of my learning journey in Computer Science to apply theoretical programming concepts in a practical, interactive application.
 
@@ -143,15 +143,17 @@ It demonstrates my ability to:
 
 ---
 
-## 👨🏻‍💻 Gameplay Demo 
+## Gameplay Demo 
 
+### Invalid word
 ![Incorrect word/ Word is not valid](https://github.com/user-attachments/assets/1887fb21-5396-4f52-a552-c61af3d60001)
 
 
+### Invalid word length
 ![Incorrect word length](https://github.com/user-attachments/assets/981e89ae-9d65-4721-96fb-2509167caaa6)
 
 
-
+### Correct word
 ![Correct word](https://github.com/user-attachments/assets/18a9cb98-b53b-4b1b-9d74-024428303713)
 
 
