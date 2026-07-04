@@ -157,6 +157,3 @@ It demonstrates my ability to:
 ![Correct word](https://github.com/user-attachments/assets/18a9cb98-b53b-4b1b-9d74-024428303713)
 
 
----
-
-Last updated: May 2026
